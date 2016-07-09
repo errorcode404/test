@@ -7,4 +7,6 @@ main.o : main.cpp
 sum.o : sum.cpp
 	g++ -c -o sum.o sum.cpp
 
-clean
+clean : 
+	rm -rf *.o
+	rm -rf sum_test
